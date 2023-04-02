@@ -14,7 +14,7 @@ dotenv.config();
 
 const app = express();
 const corsOptions ={
-  origin:'http://localhost:3000', 
+  origin:'https://onlineshopsp.netlify.app/', 
   credentials:true,            
   optionSuccessStatus:200
 }
